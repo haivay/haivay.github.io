@@ -1,0 +1,435 @@
+/*Обнуление*/
+*{padding: 0;margin: 0;border: 0;}
+*,*:before,*:after{-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{height: 100%;width: 100%;font-size: 100%;line-height: 1;font-size: 14px;-ms-text-size-adjust: 100%;-moz-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+/*--------------------*/
+body {
+    font-family: Arial;
+}
+.header {
+    height: 96px;
+    /* max-width: 1440px; */
+    /* padding: 0px 40px 0px 40px; */
+    width: 1360px;
+    margin: 0 auto;
+    padding: 24.2px 0 23.1px 0;
+}
+.menu ul{
+    display: flex;
+    align-items: center;
+} 
+.menu ul li {
+    display: block;
+    font-weight: 700;
+    font-size: 16px;
+    margin-left: 37px;
+}
+.menu ul li:first-child {
+    margin-left: 0;
+    margin-right: 220px;
+}
+.menu a {
+    color: #4D4D4D;
+}
+.drop_arrow {
+    margin-left: 6px;
+    padding-top: 3px;
+}
+.search-box {
+    display: flex;
+    height: 32px;
+}
+.search-txt {
+    font-size: 16px;
+    height: 32px;
+    width: 232px;
+    border: 1px solid #B3B3B3;
+}
+.search-btn {
+    background: #009EE8;
+    width: 32px;
+    height: 32px;
+}
+.search-box img {
+    position: relative;
+    left: 8.5px;
+    top: 8.5px;
+}
+.contact {
+    height: 266px;
+    background: url(../img/bg.png) no-repeat center / cover;
+    margin: 0 auto;
+}
+.contact__content {
+    /* max-width: 1440px; */
+    width: 1360px;
+    margin: 0 auto;
+    height: 266px;
+}
+.contact__menu {
+    display: flex;
+    padding: 19px 0 0 0;
+}
+.contact__menu ul {
+    display: flex;
+}
+.contact__menu ul li {
+    display: block;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0 5px 0 0;
+}
+.contact__menu ul li a {
+    color: #4D4D4D;
+}
+.contact__menu a:hover {
+    text-decoration: underline;
+}
+.right_arrow {
+    margin: 3px 0 0 6px;
+}
+.contact__main {
+    display: flex;
+    margin-top: 64px;
+}
+.contact__main h1 {
+    margin-top: 39px;
+    font-size: 27px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #4D4D4D;
+}
+.contact_line {
+    margin-left: 36px;
+}
+.contact__text p {
+    font-size: 18px;
+    color: #4D4D4D;
+    width: 538px;
+    margin: 0 0 20px 27px;
+    line-height: 21px;
+}
+
+
+
+/* блок с формой */
+.writeus {
+    width: 1360px;
+    height: 626px;
+    margin: 0 auto;
+}
+.writeus__title {
+    text-transform: uppercase;
+    color: #009EE8;
+    padding: 65px 0 60px 0;
+    font-size: 24px;
+    font-weight: 700;
+}
+.writeus__content {
+    display: flex;
+}
+.form__item {
+    margin-bottom: 20px;
+    height: 30px;
+    width: 706px;
+}
+.form__item:nth-child(5) {
+    height: 138px;
+}
+.form__label {
+    font-size: 18px;
+    color: #4D4D4D;
+}
+.red_dot {
+    color: #EF5C53;
+    font-size: 18px;
+}
+.select {
+    float: right;
+    margin-left: 38px;
+    height: 30px;
+    width: 544px;
+    border: 1px solid #B3B3B3;
+}
+.form__input {
+    float: right;
+    outline: none;
+    padding: 0;
+    font-size: 16px;
+    height: 30px;
+    width: 544px;
+    border: 1px solid #B3B3B3;
+}
+.form__item textarea {
+    resize: none;
+    height: 138px;
+    width: 544px;
+}
+.form__footer {
+    display: flex;
+    width: 706px;
+    justify-content: flex-end;
+}
+.requirements {
+    color: #EF5C53;
+    font-size: 16px;
+}
+.form__button {
+    margin-left: 273px;
+    background: #009EE8;
+    color: #fff;
+    padding: 16px 58px;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-radius: 4px;
+}
+.form_info {
+    font-size: 18px;
+    color: #4D4D4D;
+    margin: 39px 0 0 60px;
+}
+.form_info p {
+    display: block;
+    width: 594px;
+    padding: 0 13px 0 0;
+    margin: 0 0 29px 0;
+    line-height: 20.7px
+}
+.form_info p:nth-child(3) {
+    margin: 0;
+}
+.bold {
+    font-weight: 700;
+}
+
+
+
+/* блок адрес */
+.adress {
+    height: 160px;
+    background-color: #CFEFFF;
+    /* margin: 0 auto; */
+}
+.adress__content {
+    display: flex;
+    max-width: 1440px;
+    width: 1360px;
+    width: 390px;
+    margin: 0 auto;
+}
+.adress__img {
+    position: relative;
+    top: 28px;
+    height: 104px;
+}
+.adress__info {
+    position: relative;
+    top: 45px;
+    margin-left: 30px;
+}
+.adress__info h3 {
+    font-size: 22px;
+    font-weight: 700;
+    color: #009EE8;
+    text-transform: uppercase;
+}
+.adress__info p {
+    font-size: 16px;
+    color: #4D4D4D;
+    margin-top: 13px;
+    line-height: 18.4px;
+}
+
+
+
+/* блок банки */
+.banks {
+    display: flex;
+    flex-direction: column;
+    width: 1360px;
+    height: 488px;
+    margin: 0 auto;
+    /* outline: 1px solid blue; */
+}
+.banks__title {
+    text-transform: uppercase;
+    color: #4D4D4D;
+    padding: 60px 0;
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0 auto;
+}
+.banks__info {
+    margin: 0 auto;
+    /* outline: 1px solid red; */
+    /* width: 1360px; */
+    
+}
+.banks__list {
+    display: flex;
+    flex-direction: row;
+    /* width: 1360px; */
+}
+.bank {
+    display: flex;
+    width: 305px;
+    height: 110px;
+    margin: 0 47px 60px 0;
+}
+.bank:last-child {
+    margin-right: 0;
+}
+.circle {
+    width: 110px;
+    height: 110px;
+    background: #FAF4F0;
+    border: 1px solid #B3B3B3;
+    border-radius: 50%;
+    /* box-sizing: content-box; */
+    box-shadow: inset 0px 0px 2px 2px rgba(0, 0, 0, 0.25);
+}
+
+.inner_circle {
+    width: 96px;
+    height: 96px;
+    position: relative;
+    left: 6.36%;
+    top: 6.36%;
+    background: #FFFFFF;
+    border: 1px solid #E5E5E5;
+    border-radius: 50%;
+    /* box-sizing: border-box; */
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.25);
+}
+.bank_logo {
+    position: relative;
+    left: 4.26%;
+    top: 4.26%;
+}
+/* .bank::after {
+    content: '';
+    display: block;
+    width: 8px;
+    height: 79px;
+    background-image: url(../img/bank_line.svg);
+    margin: 16px 10px 0 10px;
+} */
+.bank__arrow {
+    margin: 16px 10px 15.25px 10px;
+}
+.bank__name {
+    font-size: 16px;
+    font-weight: 400;
+    color: #009EE8;
+    margin: 0 0 10px 0;
+}
+.bank__info {
+    margin: 23.38px 0 0 0;
+    color: #4D4D4D;
+}
+.bank__num {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+
+
+/* футер */
+.footer {
+    height: 564px;
+    background: linear-gradient(0deg, rgba(69, 51, 45, 0.92), rgba(69, 51, 45, 0.92)), url(../img/footer_bg.png);
+    background-blend-mode: darken, normal;
+}
+.footer__content {
+    /* width: 1360px; */
+    /* margin: 0 auto; */
+    
+}
+.footer__contacts {
+    
+    
+    height: 146px;
+    border-bottom: 1px solid #262626;
+}
+.footer__menu_top {
+    display: block;
+    width: 1360px;
+    margin: 0 auto;
+    /* padding: 28px 271.5px 0 271.5px; */
+    /* outline: 1px solid red; */
+    /* height: 41px; */
+    /* text-align: center; */
+    padding: 28px 0 0 0;
+}
+.footer__menu_top ul {
+    display: flex;
+    align-items: center;
+}
+.footer__menu_top ul li{
+    font-size: 14px;
+    font-weight: 700;
+    margin: 0 0 0 30px;
+}
+.footer__menu_top ul li:first-child {
+    margin: 0 620.5px 0 0;
+}
+.footer__menu_top ul li:hover {
+    text-decoration: underline;
+    color: #fff;
+}
+.footer__menu_top ul li a {
+    color: #fff;
+}
+.footer__menu_bot {
+    display: block;
+    width: 1360px;
+    margin: 0 auto;
+    padding: 24px 0 0 0;
+}
+.footer__menu_bot ul {
+    display: flex;
+    color: #fff;
+}
+.footer__menu_bot ul li{
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0 0 0 10px;
+}
+.footer__menu_bot ul li:first-child {
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0 858px 0 0;
+}
+.footer__menu_bot ul li:nth-child(2) {
+    margin: 5px 0 0 0;
+}
+.footer__info {
+    margin: 3px 0 0 0;
+    height: 336px;
+    border-top: 1px solid rgba(250, 244, 240, 0.5);
+}
+.footer__info__content {
+    width: 1360px;
+    margin: 0 auto;
+    padding: 20px 0 0 0;
+}
+.footer__info p {
+    font-size: 14px;
+    color: #fff;
+    line-height: 16px;
+    margin: 0 0 22px 0;
+    width: 1360px;
+}
